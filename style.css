@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+
+body{
+    background-image: linear-gradient( 45deg, cyan, yellow);
+}
+header{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    
+    
+}
+
+main{
+    margin-left: 50px;
+}
+a{
+    margin-left: 900px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caixa{
+    height: 100px;
+    width: 100px;
+    border-color: black;
+    margin-left:100px ;
+    border-radius: 30px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+div{
+    display: inline-block;
+}
+div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+div >h2{
+    font-size: 20px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #49494a;
+}
+
+
+
